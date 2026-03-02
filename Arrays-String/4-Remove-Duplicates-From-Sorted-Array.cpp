@@ -24,3 +24,11 @@ public:
         return left;
     }
 };
+
+int main(){
+    vector<int> vect = {1,2,2,3,3,3,4,4};
+    Solution s1;
+    cout<<s1.removeDuplicates(vect)<<endl;
+
+    return 0;
+}
